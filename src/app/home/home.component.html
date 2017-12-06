@@ -1,0 +1,12 @@
+<div class="container">
+	<a *ngFor="let user of users" routerLink="/user/{{user.id}}" class="card text-white my-5">
+		<img class="card-img " src={{user.url}}}>
+		<div class="card-img-overlay absolute-bottom">
+			<h4 class="name">{{user.name}}</h4>
+			<p class="street">
+				<i class="fa fa-map-marker" aria-hidden="true"></i> {{user.address.street}}
+			</p>
+			<i class="fa fa-plus-circle fa-3x plus" aria-hidden="true"></i>
+		</div>
+	</a>
+</div>

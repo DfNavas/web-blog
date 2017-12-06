@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Application-wide Styles */
+
+.bg-app {
+    background-color: #2495F3 ;
+}
+
+.c-app {
+    color: #2495F3 ;
+}
+
+.bg-black {
+    background-color: #000000;
+}
